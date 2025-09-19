@@ -42,8 +42,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/SSRFRecon.git
-cd SSRFRecon
+git clone https://github.com/00xmicho/script.git
 ```
 
 ## Usage
@@ -88,7 +87,7 @@ python3 ssrfrecon.py example.com --comprehensive
 
 ## Output Files
 
-The tool generates several output files:
+The tool generates several outphttpsles:
 
 1. **Main Results** (`ssrf_urls.txt` or custom name): Contains unique, live URLs with SSRF parameters
 2. **Parameter Count** (`count-param.txt`): Lists SSRF parameters and their frequency
